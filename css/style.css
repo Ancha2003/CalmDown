@@ -307,7 +307,7 @@ header {
 
   color: #ffffff;
 
-  webkit-text-stroke-width: 5px;
+  /* webkit-text-stroke-width: 5px; */
   -webkit-text-stroke-color: black;
   /* Fallback: Set a background color. */
   background-color: #ffffff;
@@ -321,7 +321,7 @@ header {
 
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 
   /* Animate the text when loading the element. */
