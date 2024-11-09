@@ -41,7 +41,7 @@ html{
     padding: 1rem 1.2rem;
     border-radius: 50%;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: .1s ease-in-out;
     z-index: 100;
   }
 

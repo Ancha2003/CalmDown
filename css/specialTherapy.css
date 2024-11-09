@@ -103,7 +103,7 @@ html {
   padding: 1rem 1.2rem;
   border-radius: 50%;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
   z-index: 100;
 }
 
