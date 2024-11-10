@@ -444,7 +444,7 @@ nav .fa {
 /* ABOUT SECTION */
 #about {
   /* background: #1c1c1c; */
-  background-color: rgba(80, 199, 126, 0.708);
+  background-color: rgba(13, 50, 64, 0.913);
 
   width: 100%;
   padding: 5px 0px;
@@ -612,7 +612,8 @@ margin-bottom: 1rem;
 
 /* SERVICES SECTION */
 #services {
-  background-color: #298ea5;
+  background-color: rgba(80, 199, 126, 0.708);
+ 
   padding-top: 60px;
   width: 100%;
 }
@@ -815,7 +816,8 @@ figure.testimonal-Card .author h5 {
 
 .section-100 {
   padding: 50px;
-  background-color: rgba(13, 50, 64, 0.913);
+  background-color: #298ea5;
+  
 }
 
 .testimonial-view {
