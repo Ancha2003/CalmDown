@@ -46,6 +46,19 @@ html{
     transition: .08s ease-in-out;
     z-index: 100;
   }
+#chat{
+    position: fixed;
+    bottom: 0.4rem;
+    right: 0.5rem;
+    background-color: #dfee13;
+    padding: 1rem 1rem;
+    height: 4.5rem;
+    width:4.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    z-index: 100;
+}
 
   .back-top-wrap:hover {
     background-color: #00a2ff;
