@@ -3,7 +3,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,800");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
 * {
   margin: 0;
   padding: 0;
@@ -44,8 +44,8 @@ html{
 #loading {
   z-index: 251;
   width: 20rem;
-  -webkit-animation: spin 1s linear infinite;
-  animation: spin 1s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
@@ -84,7 +84,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 5;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-active {
@@ -96,6 +96,7 @@ body {
 header {
   width: 100%;
   background-image: linear-gradient(rgba(100, 159, 102, 0.7), rgba(44, 165, 161, 0.167)), url("../images/landing.png");
+
   background-position: center;
   background-size: cover;
   position: relative;
@@ -104,23 +105,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-animation: slidein 100s;
-  animation: slidein 100s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
 }
-@-webkit-keyframes slidein{
-  from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-}
-@keyframes slidein {
-  from {background-position: top;background-size:3000px; }
-  to {background-position: -100px 0px;background-size:2750px;}
-  
-  }
-  
 
 .logo {
   width: 100px;
@@ -459,7 +444,7 @@ nav .fa {
 /* ABOUT SECTION */
 #about {
   /* background: #1c1c1c; */
-  background-color: rgba(80, 199, 126, 0.708);
+  background-color: rgba(13, 50, 64, 0.913);
 
   width: 100%;
   padding: 5px 0px;
@@ -627,7 +612,8 @@ margin-bottom: 1rem;
 
 /* SERVICES SECTION */
 #services {
-  background: linear-gradient(90deg , #4a5c00bd , #2ee5) ;
+  background-color: rgba(80, 199, 126, 0.708);
+ 
   padding-top: 60px;
   width: 100%;
 }
@@ -830,7 +816,8 @@ figure.testimonal-Card .author h5 {
 
 .section-100 {
   padding: 50px;
-  background-color: rgba(13, 50, 64, 0.913);
+  background-color: #298ea5;
+  
 }
 
 .testimonial-view {

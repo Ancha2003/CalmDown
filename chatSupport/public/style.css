@@ -15,7 +15,8 @@ body {
   align-items: center; */
   display: grid;
   place-items: center;
-  background-color: #ebebeb;
+  /* background-color: #ebebeb; */
+  background-color: gray;
 }
 
 .title {
@@ -23,7 +24,7 @@ body {
 }
 
 .main {
-  border: 8px solid #dddddd;
+  border: 8px solid greenyellow;
   border-radius: 24px;
   overflow: hidden;
 }
