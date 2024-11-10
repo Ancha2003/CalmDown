@@ -68,7 +68,7 @@
 
    <section id="screenshots">
         <h2>Screenshots</h2>
-         <img src="images/screenshot.png" alt="ScreenShot loading" width="200" height="auto">
+         <img src="images/Screenshot.png" alt="ScreenShot loading" width="200" height="auto">
     </section>
 
    <section id="technology-stack">
