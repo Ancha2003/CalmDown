@@ -96,7 +96,6 @@ body {
 header {
   width: 100%;
   background-image: linear-gradient(rgba(100, 159, 102, 0.7), rgba(44, 165, 161, 0.167)), url("../images/landing.png");
-
   background-position: center;
   background-size: cover;
   position: relative;
@@ -106,6 +105,8 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .logo {
   width: 100px;
@@ -612,7 +613,7 @@ margin-bottom: 1rem;
 
 /* SERVICES SECTION */
 #services {
-  background-color: rgba(80, 199, 126, 0.708);
+  background: linear-gradient(90deg,#71BC78,#2ee5);
  
   padding-top: 60px;
   width: 100%;
