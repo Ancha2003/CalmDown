@@ -96,8 +96,18 @@ body {
 header {
   width: 100%;
   background-image: linear-gradient(rgba(100, 159, 102, 0.7), rgba(44, 165, 161, 0.167)), url("../images/landing.png");
-
   background-position: center;
+  -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
   background-size: cover;
   position: relative;
   min-height: 100vh;
@@ -106,6 +116,17 @@ header {
   align-items: center;
   justify-content: center;
 }
+@-webkit-keyframes slidein {
+  from {background-position: top; background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2750px;}
+  }
+  
+  @keyframes slidein {
+  from {background-position: top;background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2750px;}
+  
+  }
+  
 
 .logo {
   width: 100px;
@@ -612,7 +633,7 @@ margin-bottom: 1rem;
 
 /* SERVICES SECTION */
 #services {
-  background-color: rgba(80, 199, 126, 0.708);
+  background: linear-gradient(90deg,#71BC78,#2ee5);
  
   padding-top: 60px;
   width: 100%;
