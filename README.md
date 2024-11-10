@@ -68,7 +68,7 @@
 
    <section id="screenshots">
         <h2>Screenshots</h2>
-         <img src="images/Screenshot.png" alt="ScreenShot loading" width="200" height="auto">
+         <img src="https://github.com/Ancha2003/CalmDown/blob/main/images/Screenshot%20.png" alt="ScreenShot loading" width="200" height="auto">
     </section>
 
    <section id="technology-stack">
@@ -87,6 +87,7 @@
         <p><strong>Admin Name:</strong> Anchal</p>
         <p><strong>Contact:</strong> 82XXXXXX34</p>
     </section>
+    
 
   <section id="contributors">
         <h2>Contributors</h2>
@@ -96,5 +97,6 @@
             <li>Nihal</li>
         </ul>
     </section>
+    Project Link:-https://now-calmdown.netlify.app/
 </body>
 </html>
